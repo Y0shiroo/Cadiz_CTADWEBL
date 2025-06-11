@@ -85,6 +85,11 @@ function LoginPage() {
                     <Link to="/register" className="loginpage-register">
                         Don't have an account? Register here.
                     </Link>
+                    <div style={{ textAlign: 'center', marginTop: '1rem' }}>
+                        <Link to="/" className="loginpage-back-home">
+                            Back to Home
+                        </Link>
+                    </div>
                 </form>
             </div>
         </div>
