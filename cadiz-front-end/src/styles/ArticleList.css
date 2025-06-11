@@ -1,0 +1,66 @@
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+  }
+  
+  .article-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .article-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    height: 260px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .article-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .article-title,
+  .article-snippet,
+  .article-author,
+  .article-date {
+    color: #222;
+    transition: color 0.2s ease;
+  }
+  
+  .article-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .article-snippet {
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+  }
+  
+  .article-author {
+    font-weight: 500;
+    color: #1d4ed8;
+  }
+  
+  .article-date {
+    font-size: 0.85rem;
+    color: #555;
+  }
+  
+  .article-card:hover .article-title,
+  .article-card:hover .article-snippet,
+  .article-card:hover .article-date {
+    color: #1d4ed8;
+  }
+  

@@ -1,0 +1,41 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: #464646;
+
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+
+    padding: 0 40px;
+    box-shadow: 0 2px 4px #0000001a;
+    z-index: 1000;
+   }
+
+   .navbar-left .logo {
+    height: 40px;
+   }
+
+   .navbar-center {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    justify-self: center;
+   }
+
+   .navbar-right {
+    justify-self: end; 
+   }
+
+   .navbar-center li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+   }
+
